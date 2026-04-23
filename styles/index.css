@@ -61,14 +61,30 @@
 /*FIRM OVERVIEW*/
 
 .about-us{
-    height: 1100px;
+    height: 750px;
     background-color: #570907; 
+    display: flex;
+}
+
+.lady-justice{
+    background-color: rgba(255, 255, 255, 0.299);
+    width: 40%;
+}
+
+.about-us-content{
+    display: flex;
+    flex-direction: column;
 }
 
 .up{
-    height: 60px;
+    flex: 1;
 }
 
 .marble{
     background-color: #F0EFE2;
+    background-image: url('/images/marble.png'); 
+    height: 450px;
+    border-top-left-radius: 50px;
+    text-align: center;
+    padding: 100px
 }
