@@ -1,0 +1,39 @@
+/*NAV BAR*/
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: #E0E0E0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 150px;
+}
+
+.page-sections{
+    text-align: right;
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.section{
+    display: inline-block;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.nav-logo{
+    width: 200px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-img{
+    width: 300px;
+    margin-left: 40px;
+}

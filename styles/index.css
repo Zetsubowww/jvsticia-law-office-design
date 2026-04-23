@@ -1,0 +1,74 @@
+/*HERO SECTION*/
+.hero-page{
+    display: flex;
+    flex-direction: row;
+    height: 1125px;
+    background: url('/images/court1.png') center/cover no-repeat;
+}
+
+.hero-text{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.hero-text-container{
+    text-align: right;
+    margin: 100px;
+}
+
+.justice{
+    font-size: 64px;
+    color: #E0E0E0;
+    margin-bottom: 0;
+}
+
+.your-reach{
+    color: #E4AA5C;
+}
+
+.justice-desc{
+    font-family: Open Sans, Arial;
+    font-size: 20px;
+    margin-top: 0px;
+    color: #E0E0E0;
+}
+
+.hero-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 50%;
+}
+
+.hero-button-container{
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+}
+
+.hero-book, .hero-explore{
+    width: 400px;
+    border: none;
+    text-align: left;
+    margin: 10px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #E0E0E0;
+}
+
+/*FIRM OVERVIEW*/
+
+.about-us{
+    height: 1100px;
+    background-color: #570907; 
+}
+
+.up{
+    height: 60px;
+}
+
+.marble{
+    background-color: #F0EFE2;
+}
