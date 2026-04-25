@@ -1,12 +1,12 @@
 /*HERO SECTION*/
 .hero-page{
     display: flex;
-    height: 70rem;
+    height: 40rem;
     background: url('/images/court1.png') center/cover no-repeat;
 }
 
 .hero-text{
-    width: 50%;
+    width: 65%;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -18,14 +18,14 @@
 }
 
 .justice{
-    font-size: 4rem;
+    font-size: 3rem;
     color: #E0E0E0;
     margin: 0;
 }
 
 .justice-desc{
     font-family: Open Sans, Arial;
-    font-size: 20px;
+    font-size: 1rem;
     margin: 0;
     color: #E0E0E0;
 }
@@ -38,7 +38,7 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
-    width: 50%;
+    flex: 1;
 }
 
 .hero-button-container{
@@ -59,7 +59,7 @@
 
 /*FIRM OVERVIEW*/
 .about-us{
-    height: 65rem;
+    height: 40rem;
     background-color: #570907; 
     display: flex;
     align-items: center;
@@ -81,7 +81,7 @@
     right: 0;
     bottom: 0;
     margin-right: -35vh;
-    z-index: 100;
+    z-index: 1;
 }
 
 .lady-justice-img{

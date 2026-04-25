@@ -8,8 +8,8 @@
     color: #E0E0E0;
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    height: 10rem;
+    height: 5rem;
+    z-index: 100;
 }
 
 .page-sections{
@@ -22,8 +22,9 @@
 
 .section{
     display: inline-block;
-    margin: 30px;
-    font-size: 20px;
+    margin-right: 2rem;
+    font-size: 1rem;
+    font-weight: 200;
 }
 
 .nav-logo{
@@ -33,6 +34,6 @@
 }
 
 .nav-logo-img{
-    width: 300px;
-    margin-left: 40px;
+    width: 9rem;
+    margin-left: 3rem;
 }
