@@ -13,8 +13,11 @@
 }
 
 .hero-text-container{
+    margin-right: 5rem;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
     text-align: right;
-    margin-right: 7rem;
 }
 
 .justice{
@@ -26,8 +29,9 @@
 .justice-desc{
     font-family: Open Sans, Arial;
     font-size: 1rem;
-    margin: 0;
     color: #E0E0E0;
+    margin: 0;
+    width: 35rem;
 }
 
 .your-reach{
@@ -44,15 +48,16 @@
 .hero-button-container{
     display: flex;
     flex-direction: column;
-    margin: 80px;
+    margin: 5rem;
 }
 
 .hero-book, .hero-explore{
-    width: 400px;
+    width: 20rem;
     border: none;
     text-align: left;
-    margin: 10px;
-    font-size: 20px;
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-family: Inter, Arial;
     background-color: rgba(0, 0, 0, 0);
     color: #E0E0E0;
 }
