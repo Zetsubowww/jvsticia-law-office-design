@@ -59,16 +59,109 @@
 }
 
 /*FIRM OVERVIEW*/
-
 .about-us{
     height: 1100px;
     background-color: #570907; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*////////////////////////////ABOUt US LEFT//////////////////////////*/
+.about-us-left{
+    height: 100%;
+    width: 30%;
+    position: relative;
+}
+
+.j-logo-img{
+    width: 150vh;
+}
+.lady-justice{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: -35vh;
+    z-index: 100;
+}
+
+.lady-justice-img{
+    height: 80vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*////////////////////////////ABOUt US RIGHT//////////////////////////*/
+
+.about-us-right{
+    height: 100%;
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .up{
-    height: 60px;
+    height: 20%;
 }
 
 .marble{
     background-color: #F0EFE2;
+    background-image: 
+        linear-gradient(rgba(240,235,227,0.6), rgba(240,235,227,0.6)),
+        url('/images/marble.png');
+    background-size: cover;
+    flex: 1;
+    border-top-left-radius: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.content-text{
+    width: 40vh;
+    text-align: left;
+}
+
+
+.fierce-text{
+    font-size: 3vh;
+    color: #570907;
+}
+
+.filipino-word{
+    color: #E4AA5C;
+}
+
+.founded-text{
+    font-family: Open Sans, Arial;
+}
+
+.combine-text{
+    font-family: Open Sans, Arial;
+}
+
+
+.experience-handled{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-handled h1{
+    color: #E4AA5C;
+    font-size: 4vh;
+    margin: 0;
+}
+
+.experience-handled p{
+    font-family: Open Sans, Arial;
+    font-size: 1.5vh;
+    margin: 0;
+}
+
+.experience-handled span{
+    color: #570907;
+}
+
