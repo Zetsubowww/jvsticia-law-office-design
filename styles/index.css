@@ -1,8 +1,7 @@
 /*HERO SECTION*/
 .hero-page{
     display: flex;
-    flex-direction: row;
-    height: 1125px;
+    height: 70rem;
     background: url('/images/court1.png') center/cover no-repeat;
 }
 
@@ -15,24 +14,24 @@
 
 .hero-text-container{
     text-align: right;
-    margin: 100px;
+    margin-right: 7rem;
 }
 
 .justice{
-    font-size: 64px;
+    font-size: 4rem;
     color: #E0E0E0;
-    margin-bottom: 0;
-}
-
-.your-reach{
-    color: #E4AA5C;
+    margin: 0;
 }
 
 .justice-desc{
     font-family: Open Sans, Arial;
     font-size: 20px;
-    margin-top: 0px;
+    margin: 0;
     color: #E0E0E0;
+}
+
+.your-reach{
+    color: #E4AA5C;
 }
 
 .hero-buttons{
@@ -60,7 +59,7 @@
 
 /*FIRM OVERVIEW*/
 .about-us{
-    height: 750px;
+    height: 65rem;
     background-color: #570907; 
     display: flex;
     align-items: center;
