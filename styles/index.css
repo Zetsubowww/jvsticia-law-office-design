@@ -1,7 +1,7 @@
 /*HERO SECTION*/
 .hero-page{
     display: flex;
-    height: 40rem;
+    height: 60rem;
     background: url('/images/court1.png') center/cover no-repeat;
 }
 
@@ -64,7 +64,7 @@
 
 /*FIRM OVERVIEW*/
 .about-us{
-    height: 40rem;
+    height: 60rem;
     background-color: #570907; 
     display: flex;
     align-items: center;
@@ -79,18 +79,18 @@
 }
 
 .j-logo-img{
-    width: 150vh;
+    width: 120rem;
 }
 .lady-justice{
     position: absolute;
     right: 0;
     bottom: 0;
-    margin-right: -35vh;
+    margin-right: -28rem;
     z-index: 1;
 }
 
 .lady-justice-img{
-    height: 80vh;
+    height: 60rem;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -117,7 +117,7 @@
         url('/images/marble.png');
     background-size: cover;
     flex: 1;
-    border-top-left-radius: 10vh;
+    border-top-left-radius: 10rem;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -168,4 +168,105 @@
 .experience-handled span{
     color: #570907;
 }
+
+/*FIRM EXPERTISE*/
+.expertise{
+    height: 60rem;
+}
+
+.expertise-top{
+    display: flex;
+}
+
+.expertise-left{
+    background-image: url('/images/building1.png');
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.our-expertise{
+    margin-top: 10rem;
+    text-align: justify;
+}
+
+.expertise-text{
+    font-size: 3rem;
+    color: #F0EFE2;
+}
+
+.comprehensive{
+    color: #F0EFE2;
+    width: 20rem;
+    font-size: 1.5rem;
+}
+
+.expertise-right{
+    background-color: #F0EFE2;
+    background-image: 
+        linear-gradient(rgba(240,235,227,0.6), rgba(240,235,227,0.6)),
+        url('/images/marble.png');
+    background-size: cover;
+    flex: 1;
+    border-bottom-left-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.exp-grid{
+    display: grid;
+    grid-template-columns: 30rem 30rem;
+}
+
+.exp-card{
+    background-color: #570907;
+    border: none;
+    border-radius: 1rem;
+    height: 12rem;
+    text-align: center;
+    margin: 3rem;
+    padding: 1rem;
+}
+
+.exp-card h2{
+    color: #E4AA5C;
+    font-size: 2rem;
+}
+
+.exp-card p{
+    color: #F0EFE2;
+    font-family: Inter, Arial;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.expertise-bottom{
+    display: flex;
+}
+
+.expertise-lower-left{
+    background-color: #570907;
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.fees{
+    color: #F0EFE2;
+}
+
+.transparent-text{
+    font-size: 2.5rem;
+    width: 20rem;
+}
+
+
+.expertise-lower-right{
+    background-color: #E4AA5C;
+    flex: 1;
+}
+
 
